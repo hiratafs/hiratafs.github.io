@@ -16,42 +16,6 @@ body {
   float: left;
   position: relative;
 }
-=======
-@media screen and (max-width: 450px) {
-  .icon {
-    margin: 0px 0px 0px 5px;
-    float: left;
-  }
-  h1 {
-    font-size: 1.3em;
-    margin: 10px 0px 0px 0px;
-  }
-  .subtitulo {
-    padding: 3px;
-    margin: 0px 10px 0px 0px;
-  }
-}
-
-@media screen and (min-width:451px) {
-  h1 {
-    font-size: 2em;
-  }
-  .subtitulo {
-    margin: 0px 20px 0px 0px;
-  }
-  .icon {
-    padding: 5px 0px 0px 10px;
-
-  }
-}
-
-
-@media screen and (min-width: 901px) and (max-width: 990){
-  .icon {
-    padding: 20px 0px 30px 20px;
-  }
->>>>>>> 8fe54dbe912fb7ef9865f9eafe2faa8086d8c2cf
-}
 
 .titulo-portfolio {
   font-size: 40px;
