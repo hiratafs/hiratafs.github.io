@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.icon {
+  margin: 10px 0px 10px 0px;
+  width: 80px;
+}
+
+.header-logo {
+  float: left;
+  position: relative;
+=======
 @media screen and (max-width: 450px) {
   .icon {
     margin: 0px 0px 0px 5px;
@@ -31,14 +49,40 @@
   .icon {
     padding: 20px 0px 30px 20px;
   }
+>>>>>>> 8fe54dbe912fb7ef9865f9eafe2faa8086d8c2cf
 }
 
-
-body {
-  font-family: 'Lato', sans-sans-serif;
-  box-sizing: border-box;
+.titulo-portfolio {
+  font-size: 40px;
+  font-weight: bold;
 }
 
+.subtitulo-portfolio {
+  font-size: 20px;
+}
+
+<<<<<<< HEAD
+img {
+  margin: 0 auto;
+}
+
+hr {
+  height: 3px;
+  background-color: #43b2d7;
+}
+
+.works {
+  margin: 0px auto 20px 0px;
+}
+
+.trabalhos-feitos {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.descricao {
+  margin: 0px 0px 40px 0px;
+=======
 .icon {
   float: left;
   width: 80px;
@@ -60,15 +104,50 @@ h3 {
 }
 .subtitulo {
   margin: 0px 15px 40px 0px;
+>>>>>>> 8fe54dbe912fb7ef9865f9eafe2faa8086d8c2cf
 }
 
-.descricao-projeto {
-  font-size: 1.2em;
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+  .titulo-portfolio {
+    font-size: 24px;
+  }
+  .subtitulo-portfolio {
+    font-size: 12px;
+  }
+  .trabalhos-feitos {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+  .titulo-projeto {
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+  .descricao {
+    margin: 0px 0px 20px 0px;
+  }
 }
 
-hr {
-  height: 3px;
-  background-color: #4caeda;
+
+@media screen and (min-width: 401px) and (max-width: 640px) {
+  .titulo-portfolio {
+    font-size: 30px;
+  }
+  .subtitulo-portfolio {
+    font-size: 15px;
+  }
+  .trabalhos-feitos {
+    font-size: 20px;
+  }
+  .titulo-projeto {
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+  }
+  .descricao {
+    margin: 0px 0px 30px 0px;
+  }
 }
 
 .img-principal {
